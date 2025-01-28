@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+}
+
+.box-teste{
+	background-color: green;
+	color:  red;
+}
+
+
+.tabela-form input, .tabela-form textarea{
+	width:  100%;
+}
+
+.tabela-form textarea{
+	resize: none;
+	height: 100px;
+}
+
+.form-comentario input[type=submit]{
+	padding: 8px 30px;
+	cursor:  pointer;
+}
+
+.form-comentario input[type=checkbox]{
+	width: auto;
+}
+
+.tabela-form{
+	width:  60%;
+}
+
+.tabela-form td{ padding:  10px; }
+
+.table-label{
+	width:  10%;
+	font-size: 14px;
+}
+
+.table-input{
+	width:  50%;
+}
+
+.table-checkbox{
+	width: 40%;
+}
+
+.table-label label{
+	font-weight: 500;
+}
+
+.table-input-img{
+	text-align: center;
+}
+
+.table-input-img img{
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	margin-bottom:  10px;
+}
+
+.tabela-lista-comentario{
+	width: 100%;
+	background-color: white;
+	border-collapse: collapse;
+}
+
+.tabela-lista-comentario th,
+.tabela-lista-comentario td{
+	border-top:  1px solid #e5e5e5;
+	border-bottom:  1px solid #e5e5e5;
+	text-align: left;
+	padding: 10px;
+}
+
+.tabela-lista-comentario-primeiro{
+	border-left:  1px solid #e5e5e5;		
+}
+
+.tabela-lista-comentario-ultimo{
+	border-right:  1px solid #e5e5e5;		
+}
+
+.tabela-lista-comentario-ultimo a{
+	white-space: nowrap;	
+}
+
+.tabela-lista-comentario td img{
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.tabela-lista-comentario textarea{
+	resize: none;
+	min-height: 250px;
+}
+
+.tabela-textos textarea{
+	width: 100%;
+	min-height: 100px;
+}
+
+.tabela-textos .tabela-lista-comentario-primeiro{
+	width: 20%;
+}
+
+.tabela-textos .tabela-lista-comentario-ultimo{
+	width: 80%;
+}
