@@ -3,6 +3,7 @@
 **Página web da farmácia online Far.me.** Oferecendo soluções personalizadas de entrega de medicamentos e acompanhamento farmacêutico, a Far.me simplifica a rotina de quem precisa de cuidados contínuos. Foi criado um Theme do WordPress bem como plugin.
 
 ## Tecnologias Utilizadas
+* WordPress
 * HTML
 * CSS
 * JavaScript
